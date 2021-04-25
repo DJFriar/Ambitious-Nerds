@@ -13,11 +13,11 @@
     border-bottom: 2px solid #863084;
   }
 
-  h1 {
+  /* h1 {
     margin: 0;
     text-align: center;
-  }
-  img {
+  } */
+  /* img {
     max-width: 180px;
-  }
+  } */
 </style>
