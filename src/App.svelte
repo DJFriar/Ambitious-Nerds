@@ -1,16 +1,17 @@
 <script>
   import Header from './components/Header.svelte';
   import Footer from './components/Footer.svelte';
+  import Portfolio from './components/Portfolio.svelte';
 </script>
 
 <Header />
 
 <main>
-	<p>We are nerds. We are ambitious. We are...</p>
-	<h1>Ambitious Nerds, LLC</h1>
-  <p>We build software applications and web sites.</p>
-  <p class="tiny-text">Except this one, it seems. Don't worry, this is just a placeholder while we finish up the real one.</p>
+	<!-- <h1><span class='ambitious'>ambitious</span><span class='Nerds'>Nerds</span></h1> -->
+  <p>We build software applications and web sites. Below is a small portfolio of our work.</p>
 </main>
+
+<Portfolio />
 
 <Footer />
 
@@ -23,12 +24,22 @@
 	}
 
 	h1 {
-		color: #863084;
-		text-transform: uppercase;
+		/* color: #FF6347; */
 		font-size: 4em;
 		font-weight: 100;
 	}
 
+  .ambitious {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  .Nerds {
+    font-family: 'Orbitron', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+  }
 	@media (min-width: 640px) {
 		main {
 			max-width: none;

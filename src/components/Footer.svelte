@@ -8,10 +8,11 @@
     text-align: center;
   }
   .copyright {
-    color: #86308488;
+    /* color: #86308488; */
+    color: black;
     font-size: 14px;
     display: inline-block;
     padding: 20px;
-    border-top: 1px solid #86308488;
+    /* border-top: 1px solid #86308488; */
   }
 </style>
