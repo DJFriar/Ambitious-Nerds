@@ -1,6 +1,8 @@
 <footer>
-  <div class="copyright">&copy; 2021 Ambitious Nerds, LLC</div>
-  <div class="copyright">Check us out on <a href="https://www.youtube.com/channel/UCHCj3oO-tPMhfltkhcJUPEg">YouTube</a></div>
+  <div class="copyright">
+    &copy; 2021 Ambitious Nerds, LLC<br/>
+    Check us out on <a href="https://www.youtube.com/channel/UCHCj3oO-tPMhfltkhcJUPEg">YouTube</a>
+  </div><br/>
 </footer>
 
 <style>
