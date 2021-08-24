@@ -1,48 +1,78 @@
 <script>
-
+  
 </script>
 
-<div class="limiter">
-  <div class="container-table100">
-    <div class="wrap-table100">
-      <div class="table100">
-        <table>
-          <thead>
-            <tr class="table100-head">
-              <th class="column1">Project</th>
-              <th class="column2">Description</th>
-              <th class="column3">Platform</th>
-              <th class="column4">Link</th>
-            </tr>
-          </thead>
-          <tbody>
-              <tr>
-                <td class="column1">Butter & Saffron Catering Co</td>
-                <td class="column2">Website for a catering company located in Plano, Texas.</td>
-                <td class="column3">Web</td>
-                <td class="column4"><a href="https://www.butterandsaffron.com">Butter & Saffron</a></td>
+<main>
+	<!-- <h1><span class='ambitious'>ambitious</span><span class='Nerds'>Nerds</span></h1> -->
+  <p class="intro">We build software applications and web sites. Below is a small portfolio of our work.</p>
+
+  <div class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100">
+          <table>
+            <thead>
+              <tr class="table100-head">
+                <th class="column1">Project</th>
+                <th class="column2">Description</th>
+                <th class="column3">Platform</th>
+                <th class="column4">Link</th>
               </tr>
-              <tr>
-                <td class="column1">Mileage Mania</td>
-                <td class="column2">A website platform to facilitate submitting and tracking of required rally materials.</td>
-                <td class="column3">Web</td>
-                <td class="column4"><a href="https://mm.ambitiousnerds.com">Mileage Mania</a></td>
-              </tr>
-              <tr>
-                <td class="column1">Tour of Honor</td>
-                <td class="column2">A ground up re-write of the Tour of Honor website, Android and iOS apps. The new site will allow 
-                  for a much more streamlined rider submission workflow, and more importantlt drastically reduce the effort needed to score submissions.</td>
-                <td class="column3">Web</td>
-                <td class="column4">Coming Soon</td>
-              </tr>
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+                <tr>
+                  <td class="column1">Butter & Saffron Catering Co</td>
+                  <td class="column2">Website for a catering company located in Plano, Texas.</td>
+                  <td class="column3">Web</td>
+                  <td class="column4"><a href="https://www.butterandsaffron.com">Butter & Saffron</a></td>
+                </tr>
+                <tr>
+                  <td class="column1">Mileage Mania</td>
+                  <td class="column2">A website platform to facilitate submitting and tracking of required rally materials.</td>
+                  <td class="column3">Web</td>
+                  <td class="column4"><a href="https://mm.ambitiousnerds.com">Mileage Mania</a></td>
+                </tr>
+                <tr>
+                  <td class="column1">Tour of Honor</td>
+                  <td class="column2">A ground up re-write of the Tour of Honor website, Android and iOS apps. The new site will allow 
+                    for a much more streamlined rider submission workflow, and more importantlt drastically reduce the effort needed to score submissions.</td>
+                  <td class="column3">Web</td>
+                  <td class="column4">Coming Soon</td>
+                </tr>
+                <tr>
+                  <td class="column1">ambitiousNerds YouTube Channel</td>
+                  <td class="column2">A collection of videos relating to development, programming, and remote work.</td>
+                  <td class="column3">YouTube</td>
+                  <td class="column4"><a href="/YouTube">YouTube Posts</a></td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</main>
 
 <style>
+  .intro {
+		text-align: center;
+		padding: 1em;
+		margin: 0 auto;
+	}
+
+  h1 {
+		/* color: #FF6347; */
+		font-size: 4em;
+		font-weight: 100;
+	}
+	@media (min-width: 640px) {
+		main {
+			max-width: none;
+		}
+	}
+  .tiny-text {
+    font-size: 8px;
+  }
 .container-table100 {
     width: 100%;
     min-height: 30vh;
