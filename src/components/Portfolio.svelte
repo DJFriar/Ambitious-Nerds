@@ -17,28 +17,23 @@
           </thead>
           <tbody>
               <tr>
+                <td class="column1">Butter & Saffron Catering Co</td>
+                <td class="column2">Website for a catering company located in Plano, Texas.</td>
+                <td class="column3">Web</td>
+                <td class="column4"><a href="https://www.butterandsaffron.com">Butter & Saffron</a></td>
+              </tr>
+              <tr>
                 <td class="column1">Mileage Mania</td>
-                <td class="column2">What started out as a school final project, turned into a useful tool for one the easiest and most fun motorcycle rallies.</td>
+                <td class="column2">A website platform to facilitate submitting and tracking of required rally materials.</td>
                 <td class="column3">Web</td>
-                <td class="column4"><a href="http://mileagemania.ambitiousnerds.com">Mileage Mania</a></td>
+                <td class="column4"><a href="https://mm.ambitiousnerds.com">Mileage Mania</a></td>
               </tr>
               <tr>
                 <td class="column1">Tour of Honor</td>
-                <td class="column2">The official mobile app for the annual Tour of Honor Motorcycle Memorial Ride</td>
-                <td class="column3">iOS</td>
-                <td class="column4">Apple App Store</td>
-              </tr>
-              <tr>
-                <td class="column1">Tour of Honor</td>
-                <td class="column2">The official mobile app for the annual Tour of Honor Motorcycle Memorial Ride</td>
-                <td class="column3">Android</td>
-                <td class="column4">Google Play Store</td>
-              </tr>
-              <tr>
-                <td class="column1">Tour of Honor</td>
-                <td class="column2">A ground up re-write of the Tour of Honor website.</td>
+                <td class="column2">A ground up re-write of the Tour of Honor website, Android and iOS apps. The new site will allow 
+                  for a much more streamlined rider submission workflow, and more importantlt drastically reduce the effort needed to score submissions.</td>
                 <td class="column3">Web</td>
-                <td class="column4">TBD</td>
+                <td class="column4">Coming Soon</td>
               </tr>
           </tbody>
         </table>
